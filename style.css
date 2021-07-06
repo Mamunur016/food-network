@@ -102,6 +102,58 @@ h1 span {
 
 
 /* optional area */
+
+/* .reservation area */
+
+.reservation {
+    display: flex;
+    padding: 50px;
+    background-color: #F7F7F7;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.info h1 {
+    color: gray;
+    font-weight: 700;
+    letter-spacing: .025em;
+}
+.info h3 {
+    color: gray;
+    letter-spacing: .025em;
+}
+
+
+
+
+
+.table {
+    display: flex;
+    margin: 15px;
+} 
+
+.half {
+    width: 50%;
+}
+
+.table-item input {
+    padding: 10px;
+    width: 40%;
+    color: gray;
+    background-color: lavender;
+    border: 1px solid lavender;
+}  
+
+#submit {
+
+    padding: 10px 20px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    color: white;
+    background-color: lightcoral;
+}
 /* count area */
 
 .count {
