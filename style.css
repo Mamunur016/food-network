@@ -5,11 +5,19 @@ body {
 
 h1 {
     font-size: 55px;
-    font-weight: 600;
+    font-weight: 700;
+    color: gray;
+}
+p {
+    letter-spacing: .02em;
+    line-height: 1.25rem;
 }
 h1 span {
     color: orange;
 }
+
+ /* top banner area */
+
 .top-banner p {
     margin-bottom: 50px;
 }
@@ -33,11 +41,11 @@ h1 span {
     text-decoration: none;
    
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 15px 30px;
+    padding: 20px 30px;
     color: white;
     font-weight: 700;
     border-radius: 20px;
-    letter-spacing: .05em;
+    letter-spacing: .05rem;
     font-size: 20px;
 }
 
@@ -63,51 +71,37 @@ h1 span {
 
 
 /* recipies araa */
+.recipies {
+    padding: 40px;
+}
 .recipies-content {
     text-align: center;
     width: 60%;
     margin: auto;
 }
 
+.recipies-content h2 {
+    color: gray;
+    letter-spacing: .02em;
+    font-size: 40px;
+}
+
 .recipies-item {
-    width: 27%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
+    width: 28%;
+    margin-left: 4%;
+    padding: 2%;
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
+}
+#kabab {
+    margin-right: 4%;
 }
 .recipies-item img {
     width: 100%;
 }
 
 
-/* option area */
-
-/* subcribe area */
-.subscribe {
-    display: flex;
-    color: #FBFBFB;
-    padding: 20px;
-}
-.subscribe-item {
-    width: 26%;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: gray;
-}
-.subscribe-item a {
-    text-decoration: none;
-    color: navy;
-}
-.sign-btn {
-    padding: 10px 20px;
-   background: linear-gradient(45deg,purple,tomato);
-   border-radius: 10px;
-   
-}
-
-
+/* optional area */
 /* count area */
 
 .count {
@@ -115,20 +109,63 @@ h1 span {
     display: flex;
     width: 90%;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 20px;
 }
 .count-item {
     width: 26%;
     margin-left:10%;
     margin-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.count-item h1 {
+    line-height: normal;
+    margin: 0;
+
+}
+
+/* subcribe area */
+.subscribe {
+    display: flex;
+    color: #FBFBFB;
+    background-color:lavender;
+    padding: 50px 20px;
+}
+.subscribe-item {
+    width: 26%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: gray;
+}
+#signup-content {
+    margin-bottom: 40px;
+}
+.subscribe-item a {
+    text-decoration: none;
+    color: navy;
+}
+.sign-btn {
+    padding: 10px 20px;
+   background: linear-gradient(45deg,lightsalmon,tomato);
+   border-radius: 10px;
+   
 }
 
 /* footer area */
  footer {
      text-align: center;
-     padding: 30px 0;
+     padding-top: 30px;
+     padding-bottom: 50px;
      background-color:#000000;
-     color: white;
- }
+     color:lightslategray
+  }
+  footer h2 {
+      color: gray;
+      font-weight: 700;
+      margin-bottom: 40px;
+  }
+footer h2 span {
+    color: orange;
+}
